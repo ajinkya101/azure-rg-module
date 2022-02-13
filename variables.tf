@@ -1,11 +1,13 @@
 variable "az_rg_name" {
   description = "Name of resource groups"
   type        = string
+  default     = "testrg"
 }
 
 variable "az_region" {
   description = "Location of Resource groups"
   type        = string
+  default     = "eastus"
 }
 
 variable "tags" {
