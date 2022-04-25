@@ -1,7 +1,7 @@
 variable "az_rg_name" {
   description = "Name of resource groups"
   type        = string
-  default     = "testrg"
+  default     = "jenkinstestrg"
 }
 
 variable "az_region" {
